@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Scooter Animation | CodeTap </title>
+  <link rel="stylesheet" href="./style.css">
+  <!-- App favicon -->
+  <link rel="apple-touch-icon" href="https://codetap.org/assets/img/favicon.png">
+  <link rel="icon" type="image/png" href="https://codetap.org/assets/img/favicon.png">
+</head>
+
+<body>
+  <div class="container" id="container">
+
+    <div class="wrapper" id="wrapper">
+
+      <div class="header">
+        <svg version="1.1" viewBox="0 0 24 24">
+          <line x1="12" y1="20" x2="12" y2="10"></line>
+          <line x1="18" y1="20" x2="18" y2="4"></line>
+          <line x1="6" y1="20" x2="6" y2="16"></line>
+        </svg>
+        <div>
+          <svg version="1.1" viewBox="0 0 24 24">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <svg version="1.1" viewBox="0 0 24 24">
+            <rect x="3" y="3" width="7" height="7"></rect>
+            <rect x="14" y="3" width="7" height="7"></rect>
+            <rect x="14" y="14" width="7" height="7"></rect>
+            <rect x="3" y="14" width="7" height="7"></rect>
+          </svg>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="intro" id="intro">
+          <img id="logo" src="Image/logo.png" alt="ferrari logo">
+          <h1 id="intro-h1">Ready to Race</h1>
+          <h3 id="intro-h3">Experience the Speed</h3>
+        </div>
+        <img id="liberty" src="Image/scooter.png" alt="liberty 150 png">
+        <h1 id="panel-h1">Ferrari SF90</h1>
+        <ul class="models">
+          <li>Ferrari F8</li>
+          <li>Ferrari SF90</li>
+          <li>Ferrari 488</li>
+        </ul>
+        <div class="rotator">
+          <p>0&deg;</p>
+          <svg version="1.1" viewBox="0 0 10 30">
+            <path d="M5 5.663V40" fill="none" stroke="#999" stroke-width=".92"
+              transform="matrix(1 0 0 1.16492 0 -6.597)" />
+            <circle cx="7.423" cy="7.159" r="2.577" fill="#fff" transform="translate(-2.423 -4.582)" />
+          </svg>
+          <p>360&deg;</p>
+        </div>
+        <div class="specs">
+          <h2>Engine</h2>
+          <dl>
+            <dt>Engine Type</dt>
+            <dd>V8 Twin-Turbo</dd>
+
+            <dt>Transmission</dt>
+            <dd>8-Speed Dual Clutch</dd>
+
+            <dt>Top Speed</dt>
+            <dd>340 Km/h (211 mph)</dd>
+
+            <dt>Acceleration</dt>
+            <dd>0-100 Km/h in 2.5s</dd>
+
+            <dt>CO2 Emissions</dt>
+            <dd>154 g/Km</dd>
+
+            <dt>Fuel System</dt>
+            <dd>Direct Injection + Turbo</dd>
+
+            <dt>Displacement</dt>
+            <dd>3990cc V8 Engine</dd>
+          </dl>
+          <dl>
+            <dt>Engine Power</dt>
+            <dd>1000hp @ 8000 rpm</dd>
+
+            <dt>Electric Power</dt>
+            <dd>217hp Electric Motors</dd>
+
+            <dt>Combined Power</dt>
+            <dd>1000hp Total Power</dd>
+
+            <dt>Max Torque</dt>
+            <dd>800 Nm @ 6000 rpm</dd>
+
+            <dt>Weight</dt>
+            <dd>1570 kg</dd>
+
+            <dt>Drive Mode</dt>
+            <dd>AWD + RWD Modes</dd>
+
+            <dt>Launch Control</dt>
+            <dd>Race Start System</dd>
+          </dl>
+        </div>
+        <div class="chars">
+          <h2>Characteristics</h2>
+          <dl>
+            <dt>Chassis</dt>
+            <dd>Carbon Fiber Monocoque</dd>
+
+            <dt>Front Tyre</dt>
+            <dd>P265/35ZR20</dd>
+
+            <dt>Rear Brake</dt>
+            <dd>398mm Carbon Ceramic</dd>
+
+            <dt>Ground Clearance</dt>
+            <dd>120mm</dd>
+
+            <dt>Front Suspension</dt>
+            <dd>Adaptive Dampers + Anti-roll</dd>
+
+            <dt>Rear Tyre</dt>
+            <dd>P325/30ZR21</dd>
+
+            <dt>Traction Control</dt>
+            <dd>Ferrari Dynamic Enhancer</dd>
+          </dl>
+          <dl>
+            <dt>Fuel Tank</dt>
+            <dd>68 liters</dd>
+
+            <dt>Rear Suspension</dt>
+            <dd>Multi-link with adaptive dampers</dd>
+
+            <dt>Front Brake</dt>
+            <dd>398mm Carbon Ceramic</dd>
+
+            <dt>Dimensions</dt>
+            <dd>4710mm / 1972mm / 1186mm</dd>
+
+            <dt>Safety Rating</dt>
+            <dd>5-Star Euro NCAP</dd>
+          </dl>
+        </div>
+        <div class="outro">
+          <h2>Ferrari SF90 Stradale</h2>
+          <p>$625,000</p>
+          <button>Learn More</button>
+        </div>
+      </div>
+      <div class="bkg"></div>
+    </div>
+
+    <svg version="1.1" id="mask">
+      <defs>
+        <clipPath id="wrapMask">
+          <rect id="wrapWin" width="1000" height="800" fill="black" />
+        </clipPath>
+      </defs>
+    </svg>
+  </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js'></script>
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js'></script>
+  <script src="./script.js"></script>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
