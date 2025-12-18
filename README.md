@@ -182,12 +182,3 @@ Feel free to explore, fork, and contribute! If you have suggestions for improvem
 
 ---
 
-<div align="center">
-
-### ⭐ If you find these projects helpful, please star the repository!
-
-**Built with ❤️ and lots of ☕**
-
-*Showcasing the power of modern web technologies*
-
-</div>
