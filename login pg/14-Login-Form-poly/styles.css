@@ -265,7 +265,7 @@ p {
     background: linear-gradient(90deg, 
         transparent, 
         rgba(0, 212, 255, 0.5), 
-        #00d4ff, 
+        #ff0400, 
         rgba(0, 212, 255, 0.5), 
         transparent);
     transition: 0.4s;
