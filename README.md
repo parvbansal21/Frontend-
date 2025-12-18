@@ -1,7 +1,6 @@
 # 🚀 Frontend Development Portfolio
 
-[![GitHub stars](https://img.shields.io/github/stars/parvbansal21/Frontend-?style=social)](https://github.com/parvbansal21/Frontend-)
-[![GitHub forks](https://img.shields.io/github/forks/parvbansal21/Frontend-?style=social)](https://github.com/parvbansal21/Frontend-)
+
 
 Welcome to my comprehensive Frontend Development Portfolio! This repository showcases a collection of modern, interactive web projects built with cutting-edge technologies and creative animations.
 
