@@ -6,7 +6,7 @@ Welcome to my comprehensive Frontend Development Portfolio! This repository show
 
 ## 🎯 Featured Projects
 
-### 🏎️ Ferrari Scroll Animation
+### 🏎️ Ferrari Scroll Animation     (NOT COMPLETED YET IN PROCESS )
 **Technology Stack:** HTML5, CSS3, GSAP, ScrollTrigger
 
 An immersive automotive experience featuring:
@@ -15,7 +15,7 @@ An immersive automotive experience featuring:
 - **Performance-optimized** smooth scrolling
 - **Interactive elements** that respond to user scroll behavior
 
-[🔗 View Ferrari Animation](./Ferrari%20scroll%20animation/)
+[🔗 View Ferrari Animation](./Ferrari%20scroll%20animation/)    (NOT COMPLETED YET IN PROCESS )
 
 ---
 
