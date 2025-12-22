@@ -265,7 +265,7 @@ p {
     background: linear-gradient(90deg, 
         transparent, 
         rgba(0, 212, 255, 0.5), 
-        #ff0400, 
+        #00d4ff, 
         rgba(0, 212, 255, 0.5), 
         transparent);
     transition: 0.4s;
@@ -543,13 +543,13 @@ p {
     }
 }
 
-/* 3D hover effect for the entire form */
+
 .form-box:hover {
     transform: rotateX(5deg) rotateY(5deg);
     transition: transform 0.5s ease;
 }
 
-/* Additional animations for form elements */
+
 .input-group, .remember-forgot, .login-btn, .signup-link {
     animation: fadeInUp 0.5s forwards;
     opacity: 0;
